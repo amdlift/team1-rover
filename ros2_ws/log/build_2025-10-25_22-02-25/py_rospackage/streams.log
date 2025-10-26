@@ -1,0 +1,42 @@
+[0.779s] Invoking command in '/home/aaron/team1-rover/ros2_ws/src/py_rospackage': PS1=[\u@\h \W]\$ PYTHONPATH=/home/aaron/team1-rover/ros2_ws/build/py_rospackage/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aaron/team1-rover/ros2_ws/install/py_rospackage/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_rospackage build --build-base /home/aaron/team1-rover/ros2_ws/build/py_rospackage/build install --record /home/aaron/team1-rover/ros2_ws/build/py_rospackage/install.log --single-version-externally-managed install_data
+[1.025s] running egg_info
+[1.026s] creating ../../build/py_rospackage/py_rospackage.egg-info
+[1.026s] writing ../../build/py_rospackage/py_rospackage.egg-info/PKG-INFO
+[1.026s] writing dependency_links to ../../build/py_rospackage/py_rospackage.egg-info/dependency_links.txt
+[1.027s] writing entry points to ../../build/py_rospackage/py_rospackage.egg-info/entry_points.txt
+[1.027s] writing requirements to ../../build/py_rospackage/py_rospackage.egg-info/requires.txt
+[1.027s] writing top-level names to ../../build/py_rospackage/py_rospackage.egg-info/top_level.txt
+[1.027s] writing manifest file '../../build/py_rospackage/py_rospackage.egg-info/SOURCES.txt'
+[1.030s] reading manifest file '../../build/py_rospackage/py_rospackage.egg-info/SOURCES.txt'
+[1.030s] adding license file 'LICENSE'
+[1.032s] writing manifest file '../../build/py_rospackage/py_rospackage.egg-info/SOURCES.txt'
+[1.032s] running build
+[1.033s] running build_py
+[1.033s] creating /home/aaron/team1-rover/ros2_ws/build/py_rospackage/build
+[1.033s] creating /home/aaron/team1-rover/ros2_ws/build/py_rospackage/build/lib
+[1.033s] creating /home/aaron/team1-rover/ros2_ws/build/py_rospackage/build/lib/py_rospackage
+[1.034s] copying py_rospackage/__init__.py -> /home/aaron/team1-rover/ros2_ws/build/py_rospackage/build/lib/py_rospackage
+[1.034s] copying py_rospackage/publisher_member_function.py -> /home/aaron/team1-rover/ros2_ws/build/py_rospackage/build/lib/py_rospackage
+[1.034s] copying py_rospackage/subscriber_member_function.py -> /home/aaron/team1-rover/ros2_ws/build/py_rospackage/build/lib/py_rospackage
+[1.034s] running install
+[1.034s] running install_lib
+[1.035s] creating /home/aaron/team1-rover/ros2_ws/install/py_rospackage/lib/python3.10/site-packages/py_rospackage
+[1.036s] copying /home/aaron/team1-rover/ros2_ws/build/py_rospackage/build/lib/py_rospackage/__init__.py -> /home/aaron/team1-rover/ros2_ws/install/py_rospackage/lib/python3.10/site-packages/py_rospackage
+[1.036s] copying /home/aaron/team1-rover/ros2_ws/build/py_rospackage/build/lib/py_rospackage/publisher_member_function.py -> /home/aaron/team1-rover/ros2_ws/install/py_rospackage/lib/python3.10/site-packages/py_rospackage
+[1.036s] copying /home/aaron/team1-rover/ros2_ws/build/py_rospackage/build/lib/py_rospackage/subscriber_member_function.py -> /home/aaron/team1-rover/ros2_ws/install/py_rospackage/lib/python3.10/site-packages/py_rospackage
+[1.036s] byte-compiling /home/aaron/team1-rover/ros2_ws/install/py_rospackage/lib/python3.10/site-packages/py_rospackage/__init__.py to __init__.cpython-310.pyc
+[1.037s] byte-compiling /home/aaron/team1-rover/ros2_ws/install/py_rospackage/lib/python3.10/site-packages/py_rospackage/publisher_member_function.py to publisher_member_function.cpython-310.pyc
+[1.037s] byte-compiling /home/aaron/team1-rover/ros2_ws/install/py_rospackage/lib/python3.10/site-packages/py_rospackage/subscriber_member_function.py to subscriber_member_function.cpython-310.pyc
+[1.038s] running install_data
+[1.038s] creating /home/aaron/team1-rover/ros2_ws/install/py_rospackage/share/ament_index
+[1.038s] creating /home/aaron/team1-rover/ros2_ws/install/py_rospackage/share/ament_index/resource_index
+[1.038s] creating /home/aaron/team1-rover/ros2_ws/install/py_rospackage/share/ament_index/resource_index/packages
+[1.039s] copying resource/py_rospackage -> /home/aaron/team1-rover/ros2_ws/install/py_rospackage/share/ament_index/resource_index/packages
+[1.039s] copying package.xml -> /home/aaron/team1-rover/ros2_ws/install/py_rospackage/share/py_rospackage
+[1.039s] running install_egg_info
+[1.041s] Copying ../../build/py_rospackage/py_rospackage.egg-info to /home/aaron/team1-rover/ros2_ws/install/py_rospackage/lib/python3.10/site-packages/py_rospackage-0.0.0-py3.10.egg-info
+[1.043s] running install_scripts
+[1.072s] Installing listener script to /home/aaron/team1-rover/ros2_ws/install/py_rospackage/lib/py_rospackage
+[1.072s] Installing talker script to /home/aaron/team1-rover/ros2_ws/install/py_rospackage/lib/py_rospackage
+[1.072s] writing list of installed files to '/home/aaron/team1-rover/ros2_ws/build/py_rospackage/install.log'
+[1.128s] Invoked command in '/home/aaron/team1-rover/ros2_ws/src/py_rospackage' returned '0': PS1=[\u@\h \W]\$ PYTHONPATH=/home/aaron/team1-rover/ros2_ws/build/py_rospackage/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aaron/team1-rover/ros2_ws/install/py_rospackage/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_rospackage build --build-base /home/aaron/team1-rover/ros2_ws/build/py_rospackage/build install --record /home/aaron/team1-rover/ros2_ws/build/py_rospackage/install.log --single-version-externally-managed install_data

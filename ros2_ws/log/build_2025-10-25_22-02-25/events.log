@@ -1,0 +1,58 @@
+[0.000000] (-) TimerEvent: {}
+[0.000729] (py_rospackage) JobQueued: {'identifier': 'py_rospackage', 'dependencies': OrderedDict()}
+[0.000924] (py_rospackage) JobStarted: {'identifier': 'py_rospackage'}
+[0.098905] (-) TimerEvent: {}
+[0.199473] (-) TimerEvent: {}
+[0.300355] (-) TimerEvent: {}
+[0.401143] (-) TimerEvent: {}
+[0.501765] (-) TimerEvent: {}
+[0.602286] (-) TimerEvent: {}
+[0.702853] (-) TimerEvent: {}
+[0.774832] (py_rospackage) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/py_rospackage', 'build', '--build-base', '/home/aaron/team1-rover/ros2_ws/build/py_rospackage/build', 'install', '--record', '/home/aaron/team1-rover/ros2_ws/build/py_rospackage/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/aaron/team1-rover/ros2_ws/src/py_rospackage', 'env': {'PYTHON_BASIC_REPL': '1', 'KDE_FULL_SESSION': 'true', 'MAIL': '/var/spool/mail/aaron', 'USER': 'aaron', 'PAM_KWALLET5_LOGIN': '/run/user/1000/kwallet5.socket', 'LC_TIME': 'en_US.UTF-8', 'HOSTNAME': 'endeavour', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/opt/visual-studio-code/resources/app/extensions/git/dist/askpass.sh', 'XDG_CACHE_HOME': '/home/aaron/.cache', 'QT_WAYLAND_RECONNECT': '1', 'SHLVL': '5', 'BROWSER': 'firefox', 'MOTD_SHOWN': 'pam', 'HOME': '/home/aaron', 'CHROME_DESKTOP': 'code.desktop', 'KDE_APPLICATIONS_AS_SCOPE': '1', 'OLDPWD': '/home/aaron/team1-rover/ros2_ws/src', 'TERM_PROGRAM_VERSION': '1.105.0', 'DESKTOP_SESSION': 'plasma', 'GTK_RC_FILES': '/etc/gtk/gtkrc:/home/aaron/.gtkrc:/home/aaron/.config/gtkrc', 'KDE_SESSION_VERSION': '6', 'VSCODE_GIT_ASKPASS_MAIN': '/opt/visual-studio-code/resources/app/extensions/git/dist/askpass-main.js', 'PS1': '[\\u@\\h \\W]\\$', 'LC_MONETARY': 'en_US.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/opt/visual-studio-code/code', 'MANAGERPID': '1190', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'DISTROBOX_ENTER_PATH': '/usr/bin/distrobox-enter', 'SYSTEMD_EXEC_PID': '1525', 'BUNDLED_DEBUGPY_PATH': '/home/aaron/.vscode/extensions/ms-python.debugpy-2025.14.1-linux-x64/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'XDG_STATE_HOME': '/home/aaron/.local/state', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'container': 'docker', 'PICO_TOOLCHAIN_PATH': '/usr/bin', 'WAYLAND_DISPLAY': 'wayland-0', 'XKB_DEFAULT_LAYOUT': 'us', 'LOGNAME': 'aaron', 'MANAGERPIDFDID': '1191', 'JOURNAL_STREAM': '9:25820', '_': '/usr/bin/colcon', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/plasma-plasmashell.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'TERMINFO_DIRS': '/usr/share/terminfo:/run/host/usr/share/terminfo', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '2', 'GTK2_RC_FILES': '/etc/gtk-2.0/gtkrc:/home/aaron/.gtkrc-2.0:/home/aaron/.config/gtkrc-2.0', 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/bin:/var/lib/flatpak/exports/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/usr/lib/rustup/bin:/home/aaron/.vscode/extensions/ms-python.debugpy-2025.14.1-linux-x64/bundled/scripts/noConfigScripts:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/sbin:/sbin:/bin', 'SESSION_MANAGER': 'local/endeavour:@/tmp/.ICE-unix/1461,unix/endeavour:/tmp/.ICE-unix/1461', 'INVOCATION_ID': '1fc6047d5b1849e5ab7dd0e1f42e2e36', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session1', 'XDG_MENU_PREFIX': 'plasma-', 'LC_ADDRESS': 'en_US.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'ICEAUTHORITY': '/run/user/1000/iceauth_VsidWY', 'DISPLAY': ':1', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/aaron/.vscode/extensions/ms-python.debugpy-2025.14.1-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-3e7c001d7c37dca2.txt', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'KDE', 'PYTHONSTARTUP': '/home/aaron/.config/Code/User/workspaceStorage/77ad1de22eb3db4411f86895fd260158/ms-python.python/pythonrc.py', 'LC_TELEPHONE': 'en_US.UTF-8', 'XDG_DATA_HOME': '/home/aaron/.local/share', 'XDG_CONFIG_HOME': '/home/aaron/.config', 'XDG_SESSION_DESKTOP': 'KDE', 'XAUTHORITY': '/run/user/1000/xauth_hiElXI', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-0ba17cdf84.sock', 'TERM_PROGRAM': 'vscode', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'KDE', 'SHELL': '/usr/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'NO_AT_BRIDGE': '1', 'LC_MEASUREMENT': 'en_US.UTF-8', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/aaron/team1-rover/ros2_ws/build/py_rospackage', 'CONTAINER_ID': 'ubuntu2204', 'XDG_CONFIG_DIRS': '/home/aaron/.config/kdedefaults:/etc/xdg', 'PICO_SDK_PATH': '/home/aaron/pico-sdk', 'XDG_DATA_DIRS': '/home/aaron/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'en_US.UTF-8', 'KDE_SESSION_UID': '1000', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'EDITOR': 'nano', 'PYTHONPATH': '/home/aaron/team1-rover/ros2_ws/build/py_rospackage/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aaron/team1-rover/ros2_ws/install/py_rospackage/lib/python3.10/site-packages:'}, 'shell': False}
+[0.803078] (-) TimerEvent: {}
+[0.903718] (-) TimerEvent: {}
+[1.004292] (-) TimerEvent: {}
+[1.025939] (py_rospackage) StdoutLine: {'line': b'running egg_info\n'}
+[1.026795] (py_rospackage) StdoutLine: {'line': b'creating ../../build/py_rospackage/py_rospackage.egg-info\n'}
+[1.027055] (py_rospackage) StdoutLine: {'line': b'writing ../../build/py_rospackage/py_rospackage.egg-info/PKG-INFO\n'}
+[1.027286] (py_rospackage) StdoutLine: {'line': b'writing dependency_links to ../../build/py_rospackage/py_rospackage.egg-info/dependency_links.txt\n'}
+[1.027516] (py_rospackage) StdoutLine: {'line': b'writing entry points to ../../build/py_rospackage/py_rospackage.egg-info/entry_points.txt\n'}
+[1.027693] (py_rospackage) StdoutLine: {'line': b'writing requirements to ../../build/py_rospackage/py_rospackage.egg-info/requires.txt\n'}
+[1.027894] (py_rospackage) StdoutLine: {'line': b'writing top-level names to ../../build/py_rospackage/py_rospackage.egg-info/top_level.txt\n'}
+[1.028114] (py_rospackage) StdoutLine: {'line': b"writing manifest file '../../build/py_rospackage/py_rospackage.egg-info/SOURCES.txt'\n"}
+[1.030422] (py_rospackage) StdoutLine: {'line': b"reading manifest file '../../build/py_rospackage/py_rospackage.egg-info/SOURCES.txt'\n"}
+[1.030794] (py_rospackage) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[1.032964] (py_rospackage) StdoutLine: {'line': b"writing manifest file '../../build/py_rospackage/py_rospackage.egg-info/SOURCES.txt'\n"}
+[1.033266] (py_rospackage) StdoutLine: {'line': b'running build\n'}
+[1.033478] (py_rospackage) StdoutLine: {'line': b'running build_py\n'}
+[1.033714] (py_rospackage) StdoutLine: {'line': b'creating /home/aaron/team1-rover/ros2_ws/build/py_rospackage/build\n'}
+[1.033941] (py_rospackage) StdoutLine: {'line': b'creating /home/aaron/team1-rover/ros2_ws/build/py_rospackage/build/lib\n'}
+[1.034141] (py_rospackage) StdoutLine: {'line': b'creating /home/aaron/team1-rover/ros2_ws/build/py_rospackage/build/lib/py_rospackage\n'}
+[1.034374] (py_rospackage) StdoutLine: {'line': b'copying py_rospackage/__init__.py -> /home/aaron/team1-rover/ros2_ws/build/py_rospackage/build/lib/py_rospackage\n'}
+[1.034541] (py_rospackage) StdoutLine: {'line': b'copying py_rospackage/publisher_member_function.py -> /home/aaron/team1-rover/ros2_ws/build/py_rospackage/build/lib/py_rospackage\n'}
+[1.034709] (py_rospackage) StdoutLine: {'line': b'copying py_rospackage/subscriber_member_function.py -> /home/aaron/team1-rover/ros2_ws/build/py_rospackage/build/lib/py_rospackage\n'}
+[1.034876] (py_rospackage) StdoutLine: {'line': b'running install\n'}
+[1.035038] (py_rospackage) StdoutLine: {'line': b'running install_lib\n'}
+[1.035995] (py_rospackage) StdoutLine: {'line': b'creating /home/aaron/team1-rover/ros2_ws/install/py_rospackage/lib/python3.10/site-packages/py_rospackage\n'}
+[1.036350] (py_rospackage) StdoutLine: {'line': b'copying /home/aaron/team1-rover/ros2_ws/build/py_rospackage/build/lib/py_rospackage/__init__.py -> /home/aaron/team1-rover/ros2_ws/install/py_rospackage/lib/python3.10/site-packages/py_rospackage\n'}
+[1.036582] (py_rospackage) StdoutLine: {'line': b'copying /home/aaron/team1-rover/ros2_ws/build/py_rospackage/build/lib/py_rospackage/publisher_member_function.py -> /home/aaron/team1-rover/ros2_ws/install/py_rospackage/lib/python3.10/site-packages/py_rospackage\n'}
+[1.036792] (py_rospackage) StdoutLine: {'line': b'copying /home/aaron/team1-rover/ros2_ws/build/py_rospackage/build/lib/py_rospackage/subscriber_member_function.py -> /home/aaron/team1-rover/ros2_ws/install/py_rospackage/lib/python3.10/site-packages/py_rospackage\n'}
+[1.037042] (py_rospackage) StdoutLine: {'line': b'byte-compiling /home/aaron/team1-rover/ros2_ws/install/py_rospackage/lib/python3.10/site-packages/py_rospackage/__init__.py to __init__.cpython-310.pyc\n'}
+[1.037411] (py_rospackage) StdoutLine: {'line': b'byte-compiling /home/aaron/team1-rover/ros2_ws/install/py_rospackage/lib/python3.10/site-packages/py_rospackage/publisher_member_function.py to publisher_member_function.cpython-310.pyc\n'}
+[1.038085] (py_rospackage) StdoutLine: {'line': b'byte-compiling /home/aaron/team1-rover/ros2_ws/install/py_rospackage/lib/python3.10/site-packages/py_rospackage/subscriber_member_function.py to subscriber_member_function.cpython-310.pyc\n'}
+[1.038543] (py_rospackage) StdoutLine: {'line': b'running install_data\n'}
+[1.038869] (py_rospackage) StdoutLine: {'line': b'creating /home/aaron/team1-rover/ros2_ws/install/py_rospackage/share/ament_index\n'}
+[1.039093] (py_rospackage) StdoutLine: {'line': b'creating /home/aaron/team1-rover/ros2_ws/install/py_rospackage/share/ament_index/resource_index\n'}
+[1.039313] (py_rospackage) StdoutLine: {'line': b'creating /home/aaron/team1-rover/ros2_ws/install/py_rospackage/share/ament_index/resource_index/packages\n'}
+[1.039495] (py_rospackage) StdoutLine: {'line': b'copying resource/py_rospackage -> /home/aaron/team1-rover/ros2_ws/install/py_rospackage/share/ament_index/resource_index/packages\n'}
+[1.039710] (py_rospackage) StdoutLine: {'line': b'copying package.xml -> /home/aaron/team1-rover/ros2_ws/install/py_rospackage/share/py_rospackage\n'}
+[1.039908] (py_rospackage) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.041787] (py_rospackage) StdoutLine: {'line': b'Copying ../../build/py_rospackage/py_rospackage.egg-info to /home/aaron/team1-rover/ros2_ws/install/py_rospackage/lib/python3.10/site-packages/py_rospackage-0.0.0-py3.10.egg-info\n'}
+[1.043371] (py_rospackage) StdoutLine: {'line': b'running install_scripts\n'}
+[1.072352] (py_rospackage) StdoutLine: {'line': b'Installing listener script to /home/aaron/team1-rover/ros2_ws/install/py_rospackage/lib/py_rospackage\n'}
+[1.072780] (py_rospackage) StdoutLine: {'line': b'Installing talker script to /home/aaron/team1-rover/ros2_ws/install/py_rospackage/lib/py_rospackage\n'}
+[1.073066] (py_rospackage) StdoutLine: {'line': b"writing list of installed files to '/home/aaron/team1-rover/ros2_ws/build/py_rospackage/install.log'\n"}
+[1.104465] (-) TimerEvent: {}
+[1.128323] (py_rospackage) CommandEnded: {'returncode': 0}
+[1.152810] (py_rospackage) JobEnded: {'identifier': 'py_rospackage', 'rc': 0}
+[1.154233] (-) EventReactorShutdown: {}
